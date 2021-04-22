@@ -1,0 +1,22 @@
+body {
+    background: black;
+}
+div {
+    width: inherit;
+    height: inherit;
+}
+.loader {
+    display: flex;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 10px solid;
+    border-color: #00ff87 #00422357;
+    animation: 2s spin infinite;
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
